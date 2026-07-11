@@ -28,7 +28,7 @@ Scrape any Mercari Japan seller's full shop: profile rating, review count, follo
 
 ## How to use Mercari Seller Scraper
 
-1. Open the actor on Apify and click **Try for free**.
+1. Open [Mercari Seller Scraper](https://apify.com/getascraper/mercari-seller-scraper) on Apify and click **Try for free**.
 2. Paste one or more seller IDs or full seller profile URLs.
 3. Set the max listings per seller and choose whether to include sold items.
 4. Click **Start**: the actor collects the seller profile and every matching listing, then writes one record per seller.
@@ -182,4 +182,4 @@ This actor collects publicly visible data from Mercari for research and analysis
 
 ## Support
 
-For bug reports, missing fields, or feature requests, open an issue under the [Issues](https://github.com/getascraper/how-to-scrape-mercari-seller/issues) tab.
+For bug reports, missing fields, or feature requests, open an issue under the [Issues](https://github.com/getascraper/how-to-scrape-mercari-seller/issues) tab, or visit the actor on the [Apify Store](https://apify.com/getascraper/mercari-seller-scraper).
