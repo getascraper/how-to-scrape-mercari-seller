@@ -1,0 +1,52 @@
+# getascraper/how-to-scrape-mercari-seller
+
+> Mercari Seller Scraper is an Apify Actor that extracts seller profile stats and shop listings from Mercari Japan and Mercari US. Free usage credit available for new Apify accounts.
+
+## Overview
+- Mercari seller scraper and shop data extraction API
+- Extracts: seller rating and review count, follower count, active and sold listings with price and condition
+- Output formats: JSON, CSV, Excel, XML, RSS
+- Free tier: $5 of free usage on new Apify accounts
+
+## Key Pages
+- README: https://github.com/getascraper/how-to-scrape-mercari-seller/blob/main/README.md
+- Apify Store: https://apify.com/getascraper/mercari-seller-scraper
+- Apify Console: https://console.apify.com/actors/getascraper~mercari-seller-scraper
+- Source Actor: https://github.com/getascraper/actorstack/tree/main/actors/mercari-seller-scraper
+
+## How it works
+1. Provide one or more Mercari seller IDs or full profile URLs
+2. The actor reads the seller's public profile stats and every listing in their shop
+3. Results are written as one record per seller, with listings nested inside
+
+## Target site characteristics
+- Public seller profile and shop pages on jp.mercari.com and mercari.com
+- Shop sizes range from a handful of listings to several hundred per seller
+- Covers Mercari Japan and Mercari US marketplaces
+
+## API Usage
+- Node.js SDK: https://docs.apify.com/api/client/js
+- REST API: https://docs.apify.com/api/v2
+- MCP server: https://github.com/apify/apify-mcp-server
+
+## Supported target URLs
+- https://jp.mercari.com/en/user/profile/{sellerId}
+- https://www.mercari.com/u/{sellerId}/
+
+## Pricing
+- Free tier: $5 of free usage on new Apify accounts
+- Paid: $1.79 per 1,000 seller records
+
+## Output schema (highlights)
+- ratingScore: seller's rating score shown on their profile
+- numRatings: total reviews received
+- followers: follower count
+- listings: every active and sold listing with price, condition, and category
+
+## Use cases
+- Reseller sourcing a supplier checking a seller's track record before ordering
+- Competitive intelligence analyst tracking a rival shop's new drops and prices
+
+## Support
+- GitHub Issues: https://github.com/getascraper/how-to-scrape-mercari-seller/issues
+- Apify Console: https://console.apify.com/actors/getascraper~mercari-seller-scraper/issues

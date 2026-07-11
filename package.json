@@ -1,0 +1,41 @@
+{
+  "name": "how-to-scrape-mercari-seller",
+  "version": "1.0.0",
+  "description": "Scrape any Mercari Japan seller's full shop: profile rating, review count, followers, and all active/sold listings with JPY price, condition, and category. No login required.",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "apify",
+    "apify-actor",
+    "data-extraction",
+    "marketplace-data",
+    "ecommerce",
+    "reseller-tools",
+    "online-marketplace",
+    "mercari",
+    "mercari-scraper",
+    "mercari-seller",
+    "mercari-japan",
+    "seller-profile",
+    "shop-listings",
+    "japan",
+    "secondhand",
+    "ratings",
+    "followers",
+    "sold-items",
+    "price-monitoring",
+    "sourcing"
+  ],
+  "author": "Devansh-365",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "apify-client": "^2.12.0",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}
